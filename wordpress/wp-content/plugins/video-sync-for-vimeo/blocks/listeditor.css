@@ -1,0 +1,15 @@
+
+div[data-type="wpvs-blocks/video-list-block"] {
+  border: 2px solid rgba(0,124,186,0.5);
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+div[data-type="wpvs-blocks/video-list-block"]:before {
+  content: "WPVS Video List";
+  position: absolute;
+  left: 15px;
+  top: -35px;
+  opacity: 0.75;
+}

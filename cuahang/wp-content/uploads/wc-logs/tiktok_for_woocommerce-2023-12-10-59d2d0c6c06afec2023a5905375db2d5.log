@@ -1,0 +1,29 @@
+2023-12-10T04:02:00+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6575383824202httplocalhostcuahangwp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/cuahang\/wp-admin\/"}
+ ajax: no
+2023-12-10T04:02:00+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20231210040200E06755214BFFAD6EA372,20231210040200E06755214BFFAD6EA372
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 015884ae0d311cf9adb9afecc56bf84a67759a61654c44a6ce6ba8ee51b27a2d745d0f453788a187a95bbf138059a6f708e28ad1b23f9caad0ac77f4854955ae6db93edda1387752a5debe33533ec8a818ee159fa629e746c4c0202d85e4cf8262e546e6635fe6b55a3ebd1cd203eeeac6
+x-tt-trace-id: 00-231210040200E06755214BFFAD6EA372-6DB5F5C62627F7C6-00
+Server: TLB
+Content-Encoding: gzip
+Content-Length: 207
+X-Origin-Response-Time: 148,23.48.172.87
+X-Akamai-Request-ID: 3c323f97.f02add62
+Date: Sun, 10 Dec 2023 04:02:01 GMT
+X-Cache: TCP_MISS from a27-67-51-23.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2.1-52518411) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-48-172-87.deploy.akamaitechnologies.com (AkamaiGHost/11.3.3-52660090) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=41, origin; dur=148
+Server-Timing: inner; dur=143
+X-Parent-Response-Time: 184,27.67.51.23
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost\/cuahang\/wp-admin\/","app_id":"7310811390921424897","app_secret":"58f39abbfccc4c023ce864b3e81abe7c30106225","external_data_key":"7b049af8-734a-4fee-98a0-250e038d5a5c"}}
+

@@ -1,0 +1,704 @@
+.rvs-admin-video-select {
+    padding: 10px;
+    border: 1px solid #eee;
+    max-width: 300px;
+    margin: 10px 5px 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rvs-admin-video-select img {
+    display: block;
+    width: 100%;
+}
+
+.rvs-box {
+    border: 1px solid #eee;
+    background: #fafafa;
+    padding: 1em 2em;
+    margin: 1em auto;
+}
+
+.border-box {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.wpvs-text-align-center {
+    text-align: center;
+}
+
+
+.vimeosync .subsubsub {
+    float: none !important;
+    margin: 1em 0;
+    font-size: 18px;
+}
+
+.rvs-note {
+    display: block;
+    font-size: 11px;
+    padding: 2px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    margin: 5px 0 5px 10px;
+}
+
+#toplevel_page_vimeo-sync ul.wp-submenu li a[href="admin.php?page=rvs-membership-add-on"] {
+    color: yellowgreen;
+}
+
+.vimeosync {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    overflow:hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#accessToken {
+    margin: 1em auto;
+    max-width: 960px;
+    text-align: center;
+}
+
+#accessToken input[type="text"] {
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 0.5em;
+    padding: 5px;
+    font-size: 2em;
+}
+.auth {
+    color: #27ae60;
+    display: inline-block;
+    margin: 5px;
+}
+
+#wpvs-vimeo-added-videos-count {
+    display: none;
+}
+
+#wpvs-vimeo-added-videos-count p {
+    font-size: 1.5em;
+}
+
+.wp-videos-container {
+    max-width:960px;
+    overflow: hidden;
+    margin: 15px auto;
+}
+
+.wpvs-import-options {
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #eeeeee
+}
+
+.wpvs-import-option {
+    display: block;
+    padding: 10px;
+}
+
+/* ==== TABLES ==== */
+
+table#vimeo-videos-list {
+    background: #fff;
+    border: 1px solid #eeeeee;
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+table#vimeo-videos-list tr.headings {
+    background: #f5f5f5;
+}
+table#vimeo-videos-list th, table#vimeo-videos-list td {
+    text-align:left;
+    padding: 10px;
+}
+
+table#vimeo-videos-list th.wp-select {
+    min-width: 100px;
+    text-align:right;
+}
+
+table#vimeo-videos-list th.wp-select input {
+    margin-left: 5px;
+}
+
+table#vimeo-videos-list td.wpv-video-checkbox {
+    text-align: right;
+}
+
+table#vimeo-videos-list td.wp-video-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+table#vimeo-videos-list td.wp-video-image {
+    width:100px;
+}
+
+.rvs-field-error {
+    border: 1px solid #c0392b !important;
+}
+
+.rvs-form-section {
+    margin: 15px 0;
+}
+
+.rvs-edit-form {
+    margin: 1em auto;
+    padding: 1em 2em;
+    border: 1px solid #eee;
+    background: #fafafa;
+}
+
+.rvs-edit-form label {
+    display: block;
+    margin: 1em 0 0.2em;
+    font-size: 1.2em;
+}
+
+.rvs-edit-form label.rvs-label-inline {
+    display: inline;
+}
+
+.rvs-edit-form label.rvs-button {
+    display: inline-block;
+}
+
+.rvs-edit-form input[type="text"], .rvs-edit-form input[type="number"], .rvs-edit-form input[type="password"], .rvs-edit-form input[type="email"] {
+    width: 310px;
+    height: auto;
+}
+
+.rvs-edit-form textarea {
+    max-width: 100%;
+}
+
+.rvs-edit-form label.rvs-side-label {
+    display: inline-block;
+    margin: 0 10px 5px 0;
+}
+
+#wpv-loading-videos {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 150px 0;
+    font-size: 20px;
+}
+
+#rvs-vimeo-pages label {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#wp-vimeo-page-numbers span {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#wp-vimeo-page-numbers span.active {
+    text-decoration: none;
+}
+
+#rvs-vimeo-controls {
+    text-align: right;
+}
+
+#rvs-vimeo-controls .rvs-button {
+    margin: 0;
+}
+
+#wp-prev-page {
+    display: none;
+}
+
+.rvs-button {
+    background:#0073aa;
+}
+
+.rvs-button.rvs-button-green {
+    background:#27ae60;
+}
+
+.rvs-button:disabled {
+    background:#0073aa;
+    color: #249ad2;
+    border: none;
+    box-shadow: none;
+}
+
+.rvs-button:hover {
+    background: #23282d;
+}
+
+.rvs-button:disabled:hover {
+    background:#0073aa;
+    color: #249ad2;
+    border-top-right-radius:0;
+    cursor: default;
+}
+
+.rvs-button-blue {
+    background:#0073aa;
+}
+
+.rvs-error-button {
+    background:#c0392b;
+}
+
+.wpvs-update-needed {
+    color: #d35400;
+}
+
+.rvs-success {
+    color:#27ae60;
+}
+
+.wpv-error {
+    border: 1px #c0392b !important;
+}
+
+.wpv-grey-box {
+    padding:15px;
+    border: 1px solid #eee;
+    background: #fafafa;
+    margin: 15px auto 0;
+}
+/* Design Page */
+
+#rvs-video-preview{
+    width: 100%;
+}
+
+#rvs-video-settings {
+    width: 100%;
+    overflow: hidden;
+}
+
+#rvs-video-settings form {
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border:  1px solid #eee;
+    background: #fff;
+}
+
+#rvs-video-settings .button-primary{
+    margin: 1em 0.5em 0.5em 0;
+}
+
+#rvs-youtube-color, #rvs-vimeo-color {
+    margin: 0 0 15px;
+}
+
+#rvs-payment-nav {
+    width: 300px;
+    text-align: center;
+    margin: 1em auto;
+    overflow: hidden;
+}
+
+#rvs-next {
+    opacity: 0;
+}
+
+label.issue-refund {
+    color: #0073aa;
+    text-decoration: underline;
+}
+
+#error {
+    display: none;
+    background: #fff;
+    border-bottom: 1px solid #23282d;
+    padding: 30px 5%;
+}
+
+#error p {
+    color: #c0392b;
+}
+
+.rvs-fixed-box {
+    position: fixed;
+    width: 100%;
+    left:0;
+	top: 46px;
+	margin: 0;
+    z-index: 9999;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.rvs-container {
+    clear: both;
+    overflow: hidden;
+}
+
+.rvs-col-6 {
+    padding: 0 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* ==== YOUTUBE ==== */
+
+input.wpvs-input-url {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 3px;
+}
+
+/* ==== WP VIDEOS MENUS ==== */
+
+#rvs-admin-menu {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    border: 1px solid #eee;
+    margin: 0 0 10px;
+}
+
+.rvs-tab, #rvs-dropdown-menu {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+}
+
+.rvs-tab:last-of-type {
+    border-bottom: none;
+}
+
+.rvs-tab-active {
+    border-left: 4px solid #0073aa;
+    background:#fafafa;
+    font-weight: bold;
+}
+
+#rvs-dropdown-menu {
+    text-align:right;
+    color: #0073aa;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.rvs-form label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.rvs-activation-errors {
+    color: #c0392b;
+    font-weight: bold;
+    display: none;
+    margin: 10px;
+}
+
+.wpvs-settings-box {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    margin: 0 0 15px;
+    padding: 0 15px 15px;
+}
+
+.wpvs-admin-shortcode {
+    margin: 25px 0;
+    padding: 25px;
+    background: #fafafa;
+}
+
+.wpvs-admin-shortcode input {
+    margin: 10px 0 0;
+    width: 90%;
+    max-width: 400px;
+}
+
+ul.wpvs-admin-list {
+    margin: 20px 0 0 25px;
+}
+
+ul.wpvs-admin-list li {
+    list-style: circle;
+}
+
+.wpvs-shortcode-example {
+    margin: 15px 0;
+}
+
+.wpvs-shortcode-example h5 {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+.wpvs-shortcode-example span {
+    font-weight: bold;
+}
+
+.rvs-spin {
+	animation: spinning;
+    -webkit-animation: spinning;
+    -moz-animation: spinning;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes spinning {
+	from {
+        -webkit-transform: rotate(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spinning {
+    from {
+        -webkit-transform: rotate(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinning {
+    from {
+        -webkit-transform: rotate(0);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/* Design Page */
+
+#rvs-video-preview {
+    float: right;
+    overflow: hidden;
+    width: 60%;
+}
+
+#rvs-video-settings {
+    float: left;
+    width: 35%;
+    margin: 0 5% 0 0;
+}
+
+    /* Grid Styling */
+
+.row {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.wpvs-icon-set {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #eeeeee;
+    display: none;
+}
+
+.wpvs-dashicons-select {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.wpvs-dashicon-option {
+    font-size: 28px;
+    padding: 5px;
+    border-bottom: 1px solid #fafafa;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+.wpvs-dashicon-option:hover {
+    opacity: 1;
+}
+
+.wpvs-dashicon-option span.badge {
+    display: none;
+}
+
+.wpvs-dashicon-option .dashicons {
+    font-size: 28px;
+    width: auto;
+    height: auto;
+}
+
+.wpvs-open-icon-set {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 10px;
+    background: #ffffff;
+    border: 1px solid #eee;
+    margin: 0 0 5px;
+}
+
+.wpvs-open-icon-set .dashicons {
+    font-size: 40px;
+    width: auto;
+    height: auto;
+    line-height: 0.5;
+}
+
+.wpvs-open-icon-set:hover {
+    background: #0073aa;
+    color:#ffffff;
+}
+
+.wpvs-icon-update-input {
+    display: none;
+}
+
+.wpvs-option {
+    margin: 0 auto 10px;
+    overflow: hidden;
+}
+
+ul.wpvs-disc-list {
+    list-style: disc;
+    margin-left: 15px;
+}
+
+/* Mobile - All */
+[class*='col-'] {
+    width: 100%;
+    padding: 10px 2%;
+    overflow: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#poststuff .rvs-container .col-12.wpvs-meta-title {
+    background: #fafafa;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#poststuff .rvs-container .wpvs-meta-title h2 {
+    padding: 0;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 680px) {
+
+.rvs-container .col-5, .rvs-container .col-2, .rvs-container .col-3, .rvs-container .col-4, .rvs-container .col-6, .rvs-container .col-8 {
+    float: left;
+}
+.rvs-container .col-1, .rvs-container .col-2, .rvs-container .col-3, .rvs-container .col-4, .rvs-container .col-5, .rvs-container .col-6, .rvs-container .col-7, .rvs-container .col-8, .rvs-container .col-9 {
+    width: 50%;
+}
+}
+
+@media only screen and (min-width: 782px) {
+
+.rvs-fixed-box {
+	width: -webkit-calc(100% - 35px);
+	width: -moz-calc(100% - 35px);
+	width: -ms-calc(100% - 35px);
+	left: 35px;
+    top: 32px;
+}
+}
+
+@media only screen and (min-width: 960px) {
+
+.rvs-fixed-box {
+	width: -webkit-calc(100% - 160px);
+	width: -moz-calc(100% - 160px);
+	width: -ms-calc(100% - 160px);
+	left: 160px;
+}
+
+.rvs-col-6 {
+    width: 50%;
+    float: left;
+}
+
+.rvs-container .col-1 {width: 8.33%;}
+.rvs-container .col-2 {width: 16.66%;}
+.rvs-container .col-3 {width: 25%;}
+.rvs-container .col-4 {width: 33.33%;}
+.rvs-container .col-5 {width: 41.66%;}
+.rvs-container .col-6 {width: 50%;}
+.rvs-container .col-7 {width: 58.33%;}
+.rvs-container .col-8 {width: 66.66%;}
+.rvs-container .col-9 {width: 75%;}
+.rvs-container .col-10 {width: 83.33%;}
+.rvs-container .col-11 {width: 91.66%;}
+.rvs-container .col-12 {width: 100%;}
+
+#rvs-vimeo-pages, #rvs-vimeo-controls {
+    overflow: hidden;
+}
+
+#rvs-vimeo-pages {
+    width: 65%;
+    float: left;
+}
+
+#rvs-vimeo-controls {
+    width: 35%;
+    float: right;
+}
+
+.vimeosync {
+    width: 80%;
+    float: right;
+}
+/* ==== WP VIDEOS MENUS ==== */
+
+#rvs-admin-menu {
+    display: block !important;
+    width: 20%;
+    float: left;
+}
+
+#rvs-dropdown-menu {
+    display: none;
+}
+
+}
